@@ -44,12 +44,14 @@ public class Program235 {
 		seller.setName("Martha Waine");
 		sellerDao.update(seller);
 		System.out.println("Alteracao completa");
-		/*
+
 		System.out.println("=== TEST 6: seller delete ====");
 		System.out.println("Digite o id para deletar: ");
 		int id = sc.nextInt();
 		sellerDao.deleteById(id);
-		System.out.println("Vendedor deletado");*/
+		System.out.println("Vendedor deletado");
+		
+		sc.close();
 	}
 }
 
